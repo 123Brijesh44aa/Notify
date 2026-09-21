@@ -1,0 +1,2 @@
+alter table connected_accounts
+add constraint uq_provider_external_username unique (provider,external_username);
